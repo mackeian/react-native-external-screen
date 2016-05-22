@@ -23,7 +23,7 @@ class rr_nativeModules extends Component {
   }
 }
 AppRegistry.registerComponent('rr_nativeModules', () => rr_nativeModules);
-´´´
+``
 3. Create a view for external screen with path (web/second-screen.html), and create a listener for the event callback:
 ```
 <!-- web/second-screen.html -->
@@ -35,6 +35,7 @@ AppRegistry.registerComponent('rr_nativeModules', () => rr_nativeModules);
     }
 </script>
 ...
-´´
+```
+
 
 
