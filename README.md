@@ -36,6 +36,8 @@ AppRegistry.registerComponent('rr_nativeModules', () => rr_nativeModules);
 </script>
 ...
 ```
+4. Now, by implementing the sendEventToSecondScreen in any of your react components you can
+send information to your second screen directly from react native.
 
 
 
