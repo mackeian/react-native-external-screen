@@ -51,7 +51,7 @@ RCT_EXPORT_METHOD(sendEventToSecondScreen:(NSString *)eventName:(NSDictionary *)
   
   // TODO: Send to screen if any
   dispatch_async(dispatch_get_main_queue(), ^{
-    NSString *javascriptString = [NSString stringWithFormat:@"foo('%@', %@);", eventName, jsonProperties];
+    NSString *javascriptString = [NSString stringWithFormat:@"rr_ss_callback('%@', %@);", eventName, jsonProperties];
     [self.secondWebView stringByEvaluatingJavaScriptFromString:javascriptString];
 
   });

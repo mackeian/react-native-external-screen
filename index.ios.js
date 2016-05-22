@@ -34,7 +34,7 @@ class rr_nativeModules extends Component {
       {this.state.number}
       </Text>
       <Text onPress={() => this.isSecondScreenConnected()}>Click me to check!</Text>
-      <Text onPress={() => this.sendEventToSecondScreen()}>Click to send event</Text>
+      <Text onPress={() => this.sendEventToSecondScreen()}>Click to send event!</Text>
       </View>
     );
   }
